@@ -15,10 +15,10 @@
 		7DF33B231D58E1480071BA68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DF33B221D58E1480071BA68 /* Assets.xcassets */; };
 		7DF33B261D58E1480071BA68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF33B241D58E1480071BA68 /* LaunchScreen.storyboard */; };
 		7DF33B311D58E1480071BA68 /* ProtocolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF33B301D58E1480071BA68 /* ProtocolsTests.swift */; };
-		7DF33B3C1D58FF880071BA68 /* BankVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF33B3B1D58FF880071BA68 /* BankVault.swift */; };
 		7DF33B401D59067B0071BA68 /* BankVaultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF33B3F1D59067B0071BA68 /* BankVaultTests.swift */; };
-		7DFFECE51D59145100FDFBEE /* Ships.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFECE41D59145100FDFBEE /* Ships.swift */; };
-		7DFFECE71D5920A800FDFBEE /* ShipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFECE61D5920A800FDFBEE /* ShipTests.swift */; };
+		A7DB43041DB906D300948A87 /* ShipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFECE61D5920A800FDFBEE /* ShipTests.swift */; };
+		A7DB43051DB906E500948A87 /* Ships.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFECE41D59145100FDFBEE /* Ships.swift */; };
+		A7DB43061DB906EE00948A87 /* BankVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF33B3B1D58FF880071BA68 /* BankVault.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -359,9 +359,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DF33B1E1D58E1480071BA68 /* ViewController.swift in Sources */,
-				7DFFECE51D59145100FDFBEE /* Ships.swift in Sources */,
+				A7DB43051DB906E500948A87 /* Ships.swift in Sources */,
+				A7DB43061DB906EE00948A87 /* BankVault.swift in Sources */,
 				7DF33B1C1D58E1480071BA68 /* AppDelegate.swift in Sources */,
-				7DF33B3C1D58FF880071BA68 /* BankVault.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +371,7 @@
 			files = (
 				7DF33B401D59067B0071BA68 /* BankVaultTests.swift in Sources */,
 				7DF33B311D58E1480071BA68 /* ProtocolsTests.swift in Sources */,
-				7DFFECE71D5920A800FDFBEE /* ShipTests.swift in Sources */,
+				A7DB43041DB906D300948A87 /* ShipTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
